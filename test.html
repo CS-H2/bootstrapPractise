@@ -12,6 +12,26 @@
 		.unit{
 			margin-left: 20px;
 		}
+		.img-circle{
+			display: block;
+			width: 20%;
+			height: 20%;
+			margin: 0 auto;
+		}
+		.text-success{
+			font-size: 30px;
+			font-weight: bold;
+		}
+		.text-primary{
+			font-size: 25px;
+		}
+		.text-warning{
+			font-size: 25px;
+			font-weight:bold;
+		}
+		p{
+			color: black;
+		}
 	</style>
 	<link rel="stylesheet" href="./css/bootstrap.min.css">
 	<link rel="stylesheet" href="./js/jquery.min.js">
@@ -19,95 +39,138 @@
 </head>
 <body>
 	<div class="container">
-		<h1>统一建模语言理论测试</h1>
-		<div class="row" style="font-family: 楷体;font-weight: bold;">
-			<div class="col-xs-4">考试科目:统一建模语言</div>
-			<div class="col-xs-3">时间:100分钟</div>
-			<div class="col-xs-3">得分:100</div>
-		</div>
-		<div class="row">
-			<form action="" class="form-horizontal" role="form">
-				<div class="form-group">
-					<label for="" class="col-sm-1 control-label">班级：</label>
-					<div class="col-sm-2">
-						<input type="text" class="form-control" placeholder="1班">
-					</div>
-					<label for="" class="col-sm-1 control-label">学号：</label>
-					<div class="col-sm-2">
-						<input type="text" class="form-control" placeholder="001">
-					</div>
-					<label for="" class="col-sm-1 control-label">姓名：</label>
-					<div class="col-sm-2">
-						<input type="text" class="form-control" placeholder="胡红">
-					</div>
-				</div>
-			</form>
-		</div>
-		<h2>一、填空题（每空5分，共20分）</h2>
-		<div class="unit">		
-			<form action="" class="form-horizontal" role="form">
-				<div class="form-group">
-					<label for="" class="col-sm-2 control-label" >1、UML的中文全称是：</label>
-					<div class="col-sm-6">
-						<input type="text" value="统一性建模语言" class="form-control">
-					</div>
-				</div>
-				<div class="form-group">
-					<label for="" class="col-sm-2 control-label" >2、对象最突出的特征是：</label>
-					<div class="col-sm-3">
-						<input type="text" value="封装性" class="form-control">
-					</div>
-					<div class="col-sm-3">
-						<input type="text" value="多态性" class="form-control">
-					</div>
-					<div class="col-sm-3">
-						<input type="text" value="继承性" class="form-control">
-					</div>
-				</div>
-			</form>
-		</div>
-		<h2>二、选择题（每题10分，共20分）</h2>
-		<div class="unit">
-			<label for="">1.UML与软件工程的关系是:</label><br>
-			&nbsp;&nbsp;<input type="radio" name="sofat">（A）UML就是软件工程<br>
-			&nbsp;&nbsp;<input type="radio" name="sofat">（B）UML参与到软件工程中软件开发的几个阶段<br>
-			&nbsp;&nbsp;<input type="radio" name="sofat">（C）UML与软件工程无关<br>
-			&nbsp;&nbsp;<input type="radio" name="sofat">（D）UML是软件工程的一部分<br>
 
-			<label for="">2.Java语言支持:</label><br>
-			&nbsp;&nbsp;<input type="radio" name="java">（A）单继承<br>
-			&nbsp;&nbsp;<input type="radio" name="java">（B）多继承<br>
-			&nbsp;&nbsp;<input type="radio" name="java">（C）单继承和多继承都支持<br>
-			&nbsp;&nbsp;<input type="radio" name="java">（D）单继承和多继承都不支持<br>
-		</div>
-		<h2>三、多选题（每题10分，共20分）</h2>
-		<div class="unit">
-			<label for="">1.用例的粒度分为以下哪三种:</label><br>
-			&nbsp;&nbsp;<input type="checkbox" name="lidu">（A）概述级<br>
-			&nbsp;&nbsp;<input type="checkbox" name="lidu">（B）需求级<br>
-			&nbsp;&nbsp;<input type="checkbox" name="lidu">（C）用户目标级<br>
-			&nbsp;&nbsp;<input type="checkbox" name="lidu">（D）子功能级<br>
+		<header>
+			<div class="row">
+				<img src="./resource/head.jpg" class="img-circle">
+			</div>
+			<div class="row">
+				<p align="center" class="text-success">HELLO,</p>
+			</div>
+			<div class="row">
+				<p align="center" class="text-primary">MY NAME IS EXPHUHONG PLEASE GIVE MORE ADVICE</p>				
+			</div>
+		</header>
+		<section>
+			<div class="row-fluid">
+				<div class="col-xs-12 col-sm-7">
+					
+							<p class="text-warning">
+								//ABOUT ME
+							</p>
+							<p>dolor sit amet, consectetur adipisicing elit. Repellendus, non, dolorem, cumque distinctio magni 	quam expedita velit laborum sunt amet facere tempora ut fuga aliquam ad asperiores voluptatem 		dolorum! Quasi.
+							</p>
+		
+							
+						<div class="col-xs-12 col-sm-4">
+						 <p class="text-warning">
+							//EDUCATION
+						</p>
+							<ul>
+								<p><li>1990</li></p>
+								<p><li>2005</li></p>
+								<p><li>2009</li></p>
+								<p><li>2012</li></p>
+							</ul>
+						</div>
+						<div class="col-xs-6 col-sm-6">
+							<br>
+							<ul>
+								<p><li>I was born in Katowice
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, exercitationem, totam, dolores iste dolore est aut modi.</li></p>
+								<p><li>Secondary school specializing in artistic
+Eos, explicabo, nam, tenetur et ab eius deserunt aspernatur ipsum ducimus quibusdam quis voluptatibus.
 
-			<label for="">2.类图由以下哪三部分组成:</label><br>
-			&nbsp;&nbsp;<input type="checkbox" name="leitu">（A）名称（Name）<br>
-			&nbsp;&nbsp;<input type="checkbox" name="leitu">（B）属性（Attrib）<br>
-			&nbsp;&nbsp;<input type="checkbox" name="leitu">（C）操作（Operation）<br>
-			&nbsp;&nbsp;<input type="checkbox" name="leitu">（D）方法（Function）<br>
-		</div>
-		<h2>四、判断题（每题10分，共20分）</h2>
-		<div class="unit">
-			<label for="">1、用例图只是用于和客户交流和沟通的，用于确定需求</label>
-			<label for="">√</label><input type="radio" name="first"><label for="">×</label><input type="radio" name="first"><br>
-			<label for="">2、在状态图中,终止状态在一个状态图中允许有多个</label>
-			<label for="">√</label><input type="radio" name="second"><label for="">×</label><input type="radio" name="second"><br>
-		</div>
+</li></p>
+								<p><li>First level graduation in Graphic Design
+Aspernatur, mollitia, quos maxime eius suscipit sed beatae ducimus quaerat quibusdam perferendis? Iusto, quibusdam asperiores unde repellat.</li></p>
+								<p><li>Second level graduation in Graphic Design
+Ducimus, aliquam tempore autem itaque et accusantium!</li></p>
+							</ul>
+						</div>
 
-		<h2>五、简答题（每题20分，共20分）</h2>
-		<div class="unit">
-			<label for="">1.简述什么是模型以及模型的表现形式?</label><br>
-			&nbsp;&nbsp;<textarea name="simpleAnswer" rows="8" cols="35">模型是对现实世界的简化和抽象，模型.......</textarea>
+
+						<div class="col-xs-12 col-sm-4">
+							<p class="text-warning">
+								//EXPERIENCES
+							</p>
+								Google
+								<br>
+								2013 - 2014
+								<br>
+								<br>
+								<br>
+								<br>
+								Twitter
+								<br>
+								2012
+						</div>
+						<div class="col-xs-12 col-sm-8">
+						<br>
+						<br>
+							Front-end developer / php programmer
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, et, illum perferendis veritatis velit sunt similique qui magni totam harum tempore eius laboriosam accusantium necessitatibus voluptatum? Enim, itaque dignissimos quia
+							<br>
+							<br>
+					
+						Web Developer
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, nihil sit nemo voluptatem praesentium. Quia, qui facere consectetur libero asperiores fugiat consequuntur deserunt culpa repudiandae sed quidem voluptas explicabo soluta.
+						</div>
+
+				</div>	
+				
+			<div class="col-xs-12 col-sm-5">
+					<p class="text-warning">//CONTACT</p>
+					<div class="col-xs-12 col-sm-4"><p><span class="glyphicon glyphicon-earphone "></span></p></div>
+					<div class="col-xs-12 col-sm-8"><p>500 345 242</p></div>
+					<div class="col-xs-12 col-sm-4"><p><span class="glyphicon glyphicon-earphone"></span></p></div>
+					<div class="col-xs-12 col-sm-8"><p>office@kamsolutions.pl</p></div>
+					<div class="col-xs-12 col-sm-4"><p><span class="glyphicon glyphicon-earphone"></span></p></div>
+					<div class="col-xs-12 col-sm-8"><p>Twitter</p><p>https://twitter.com/WordPress</p></div>
+					<div class="col-xs-12 col-sm-4"><p><span class="glyphicon glyphicon-earphone"></span></p></div>
+					<div class="col-xs-12 col-sm-8"><p>Facebook</p><p>https://www.facebook.com/facebook</p></div>
+					<p class="text-warning">//SKILLS</p>
+					<ul>
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>jQuery</li>
+						<li>Java</li>
+						<li>PHP</li>
+						<li>Expert</li>
+						<li>Master</li>
+						<li>Beginner</li>
+						<li>Laravel(framework)</li>
+					</ul>
+					<p class="text-warning">//LANGUAGES</p>
+					<br>
+					<br>
+					<div class="col-xs-12 col-sm-4">Polish</div>
+					<div class="col-xs-12 col-sm-8">
+						<span class=" glyphicon glyphicon-star-empty"></span>
+						<span class=" glyphicon glyphicon-star-empty"></span>
+						<span class=" glyphicon glyphicon-star-empty"></span>
+						<span class=" glyphicon glyphicon-star-empty"></span>
+						<span class=" glyphicon glyphicon-star-empty"></span>
+					</div>
+					<div class="col-xs-12 col-sm-4">English</div>
+					<div class="col-xs-12 col-sm-8">
+						<span class=" glyphicon glyphicon-star-empty"></span>
+						<span class=" glyphicon glyphicon-star-empty"></span>
+						<span class=" glyphicon glyphicon-star-empty"></span>
+						<span class=" glyphicon glyphicon-star-empty"></span>
+						<span class=" glyphicon glyphicon-star-empty"></span>
+					</div>
+					<p class="text-warning">//HOBBIES</p>
+					<br>
+					<br>
+					<ul>
+						<li><span class=" glyphicon glyphicon-heart-empty"></span>Photography</li>
+						<li><span class=" glyphicon glyphicon-heart-empty"></span>Fitness</li>
+						<li><span class=" glyphicon glyphicon-heart-empty"></span>Programming</li>
+					</ul>
+			</div>
 		</div>
-		<button type="button" class="btn btn-info">计算分数</button>
-	</div>
+		</section>
+		
 </body>
 </html>
